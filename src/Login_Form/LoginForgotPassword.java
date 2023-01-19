@@ -21,7 +21,7 @@ public class LoginForgotPassword {
         }
 
         @Test
-        public void TC08_ForgotPassword() throws InterruptedException{
+        public void TC10_ForgotPassword() throws InterruptedException{
             driver.get("https://qademo.onebrick.io/login");
 
             driver.findElement(By.linkText("Forgot Password?")).click();

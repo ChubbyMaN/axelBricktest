@@ -21,7 +21,7 @@ public class LoginSignUp {
         }
 
         @Test
-        public void TC09_LoginSignUp() throws InterruptedException{
+        public void TC11_LoginSignUp() throws InterruptedException{
             driver.get("https://qademo.onebrick.io/login");
 
             driver.findElement(By.linkText("Sign Up")).click();
